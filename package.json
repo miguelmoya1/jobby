@@ -1,0 +1,21 @@
+{
+  "name": "jobby",
+  "version": "1.0.0",
+  "description": "jobby",
+  "homepage": "https://github.com/miguelmoya1/jobby#readme",
+  "bugs": {
+    "url": "https://github.com/miguelmoya1/jobby/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelmoya1/jobby.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "emulators": "firebase emulators:start",
+    "frontend": "cd frontend && npm run start"
+  }
+}
