@@ -1,0 +1,11 @@
+{
+  "HELLO": "Hello",
+  "WELCOME": "Welcome",
+  "TITLE": "Park Sharing App",
+  "DESCRIPTION": "Find and share parking spaces with ease",
+  "LANGUAGE": "Language",
+  "LOGIN": "Login",
+  "LOGOUT": "Logout",
+  "PROFILE": "Profile",
+  "SETTINGS": "Settings"
+}

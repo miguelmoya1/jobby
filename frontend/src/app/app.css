@@ -1,0 +1,54 @@
+/* Add spacing for Material Design components */
+.spacer {
+  flex: 1 1 auto;
+}
+
+.main {
+  padding-top: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 700px;
+  margin-bottom: 3rem;
+}
+
+.content h1 {
+  margin-top: 1.75rem;
+  color: #1976d2;
+}
+
+.content p {
+  margin-top: 1.5rem;
+  color: #666;
+}
+
+.divider {
+  width: 1px;
+  background: linear-gradient(180deg, #f44336 0%, #e91e63 50%, #9c27b0 100%);
+  margin-inline: 0.5rem;
+}
+
+.pill-group {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+@media screen and (max-width: 650px) {
+  .content {
+    flex-direction: column;
+    width: max-content;
+  }
+
+  .divider {
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(90deg, #f44336 0%, #e91e63 50%, #9c27b0 100%);
+    margin-block: 1.5rem;
+  }
+}

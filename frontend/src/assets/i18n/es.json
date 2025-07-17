@@ -1,0 +1,11 @@
+{
+  "HELLO": "Hola",
+  "WELCOME": "Bienvenido",
+  "TITLE": "Aplicación de Intercambio de Estacionamiento",
+  "DESCRIPTION": "Encuentra y comparte espacios de estacionamiento con facilidad",
+  "LANGUAGE": "Idioma",
+  "LOGIN": "Iniciar Sesión",
+  "LOGOUT": "Cerrar Sesión",
+  "PROFILE": "Perfil",
+  "SETTINGS": "Configuración"
+}

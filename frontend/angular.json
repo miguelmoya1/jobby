@@ -19,11 +19,20 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "assets"
               }
             ],
             "styles": [
+              "src/custom-theme.scss",
               "src/styles.css"
-            ]
+            ],
+            "optimization": {
+              "fonts": false
+            }
           },
           "configurations": {
             "production": {
